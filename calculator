@@ -4,7 +4,7 @@
      char ch;
      int num1,num2;
 
-     printf("Choose the operator(+,-,*,/,%%): ");
+     printf("Choose the operator(+,-,*,/): ");
      scanf("%c",&ch);
 
      printf("Enter two numbers: ");
@@ -23,9 +23,6 @@
          break;
        case '/':
          printf("%d / %d =\t%d\n",num1,num2,num1/num2);
-         break;
-       case '%':
-         printf("%d %% %d =\t%d\n",num1,num2,num1%num2);
          break;
        default:
          printf("Error! Invalid Operator.");
